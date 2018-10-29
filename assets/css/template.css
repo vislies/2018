@@ -1944,6 +1944,13 @@ li {
 .image-constrain {
 	overflow: auto;
 }
+.image-stop {
+    clear: both;
+}
+.image-left {
+    float: left;
+    padding-right: 5px;
+}
 .image-right {
     float: right;
     padding-left: 5px;
