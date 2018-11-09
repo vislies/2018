@@ -3,6 +3,8 @@ layout: default
 gallery-nav:
   - title: Recalibrate Your Banan-o-meter
     url: "#recalibrate-your-banan-o-meter"
+  - title: A Lonely Bar
+    url: "#a-lonely-bar"
   - title: Lake Macquarie Got Bigger
     url: "#lake-macquarie-got-bigger"
 ---
@@ -33,10 +35,34 @@ that the number and the image don't quite add up.
 
 The graphic shows 8 bananas, but Yohan eats an even more impressive 16.
 What gives? Well, if you look closely, you will see a note that "One
-banana represents two of the fruit." That's a pretty weird way to undermine
-the point of the infographic.
+banana represents two of the fruit."
 
-If you want to impress people with your bananas, just show them your bananas.
+Why does 1 banana equal 2? You need to recalibrate your banan-o-meter. If
+you want to impress people with your bananas, just show them your bananas.
+
+<div class="image-stop" />
+
+## A Lonely Bar
+
+<a href="https://drive.google.com/open?id=1Eb1eJiOvNrsAc5xgyDOOE8v6ftftCieC" class="image-right">
+![A lonely bar](single-bar-thumbnail.jpg)
+</a>
+
+[Ken](Ken Moreland) next showed this use, or rather misuse, of a bar chart.
+This appears to be an attempt to make the presentation of a single dull
+number more interesting and failing in multiple ways.
+
+To start with, someone has clearly turned on the 3D bar chart capabilities
+in Excel, which is something that we genearlly discourage. But the problem
+with 3D representations is that they make it more difficult to understand
+the relative position of things in space. For example, the top of this bar
+is aligned with both the 8 and 10 ticks.
+
+But the really weird part of this display is that it is a lone bar. The
+point of a bar chart is to visually compare the relative value of two or
+more values. But this number is not compared to anything. It looks big, but
+any number would look big when you scale the bar to fit the space.
+Retrofitting 10 cars might actually be low if that is all you did all year.
 
 <div class="image-stop" />
 
