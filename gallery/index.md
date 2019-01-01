@@ -5,6 +5,8 @@ gallery-nav:
     url: "#recalibrate-your-banan-o-meter"
   - title: A Lonely Bar
     url: "#a-lonely-bar"
+  - title: Helpings of Pie
+    url: "#helpings-of-pie"
   - title: Lake Macquarie Got Bigger
     url: "#lake-macquarie-got-bigger"
   - title: Evil Histograms
@@ -42,8 +44,6 @@ banana represents two of the fruit."
 Why does 1 banana equal 2? You need to recalibrate your banan-o-meter. If
 you want to impress people with your bananas, just show them your bananas.
 
-<div class="image-stop" />
-
 ## A Lonely Bar
 
 <a href="https://drive.google.com/open?id=1Eb1eJiOvNrsAc5xgyDOOE8v6ftftCieC" class="image-right">
@@ -55,7 +55,7 @@ This appears to be an attempt to make the presentation of a single dull
 number more interesting and failing in multiple ways.
 
 To start with, someone has clearly turned on the 3D bar chart capabilities
-in Excel, which is something that we genearlly discourage. But the problem
+in Excel, which is something that we generally discourage. But the problem
 with 3D representations is that they make it more difficult to understand
 the relative position of things in space. For example, the top of this bar
 is aligned with both the 8 and 10 ticks.
@@ -66,7 +66,40 @@ more values. But this number is not compared to anything. It looks big, but
 any number would look big when you scale the bar to fit the space.
 Retrofitting 10 cars might actually be low if that is all you did all year.
 
+## Helpings of Pie
+
+<a href="https://drive.google.com/open?id=1MgCsBS-aWQTabwaTcx1f_LJEYvz6dAy7" class="image-right">
+![How much is 1/3?](one-third-pie-chart-thumbnail.jpg)
+</a>
+
+It is no secret that [Ken][Ken Moreland] is not a fan of pie charts, and
+so he often provides examples of their use and abuse. First up is this
+public display where the pie chart is essentially correct, but the designer
+apparently does not know what one quarter looks like.
+
 <div class="image-stop" />
+
+<a href="https://drive.google.com/open?id=1f1GJJ4tPaCKEQGzJT-LD2PdPTxPSJtHh" class="image-right">
+![An overfull pie chart](overfull-pie-chart-thumbnail.jpg)
+</a>
+
+Unlike [Ken][Ken Moreland], news organizations tend to like pie charts very
+much, and apparently they like abusing them as well. Here is a bizarre
+example of a pie chart that contains more than 100% of content. It's a
+paradox how the pie chart contains more pie than the pie chart contains.
+Perhaps the designers were ingesting some of the material they were talking
+about.
+
+<div class="image-stop" />
+
+<a href="https://drive.google.com/open?id=1vDRh0jzlAEQQO0SGtUqz9VJAacrMH7g7" class="image-right">
+![Too much data to read](bw-bar-chart-thumbnail.jpg)
+</a>
+
+This final bar chart is fraught with problems. The biggest problem by far
+is that there are way too many wedges to keep track of. Just to make sure
+there is no possible way to understand what is going on, the chart is
+printed without color. The designers of this chart must hate their data.
 
 ## Lake Macquarie Got Bigger
 
@@ -82,8 +115,7 @@ rivers, but otherwise follows an arc.
 
 <div class="image-stop" />
 
-<a
-href="https://drive.google.com/open?id=1sKzPBT60mIapFRr_icu4vnIeU-QYOFFp" class="image-right">
+<a href="https://drive.google.com/open?id=1sKzPBT60mIapFRr_icu4vnIeU-QYOFFp" class="image-right">
 ![Bad color map](bad-weather-map-colors-thumbnail.jpg)
 </a>
 
@@ -98,13 +130,11 @@ to represent rainfall unwisely use the same color to represent ocean in
 this map.
 
 Rules of probability dictate that the area in this map between the Cessnock
-and Lake Wacquarie labels has just received between 150 and 200mm of rain
+and Lake Macquarie labels has just received between 150 and 200mm of rain
 (which is probably not enough to turn the whole area into a lake). But what
 about the other patches? What about the other subtle features of the map?
 Or are maybe we are supposed to assume that it's just really rainy off the
 coast?
-
-<div class="image-stop" />
 
 ## Evil Histograms
 
