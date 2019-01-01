@@ -7,6 +7,8 @@ gallery-nav:
     url: "#a-lonely-bar"
   - title: Helpings of Pie
     url: "#helpings-of-pie"
+  - title: Email by the Billions
+    url: "#email-by-the-billions"
   - title: Lake Macquarie Got Bigger
     url: "#lake-macquarie-got-bigger"
   - title: Evil Histograms
@@ -101,6 +103,51 @@ is that there are way too many wedges to keep track of. Just to make sure
 there is no possible way to understand what is going on, the chart is
 printed without color. The designers of this chart must hate their data.
 
+## Email by the Billions
+
+<a href="https://drive.google.com/open?id=1Q9U_kA-nwt4ZGb9rIv-tDmtaQn_CVDJd" class="image-right">
+![Pretty email bars](bad-email-plot-thumbnail.png)
+</a>
+
+[Ken][Ken Moreland] showed us this plot that comes from [a recent technical
+paper]. The chart clearly puts form over function with the needless 3D
+effects and shadows (which are inconsistent).
+
+But the more serious issue is that the plot unfairly represents the data.
+The intention of this chart is clearly to demonstrate that email traffic is
+steeply on the rise. But does the data agree with that?
+
+If we look closely, we see that the bars do not start at 0. Instead, they
+start at a very large 225 _billion_ emails.
+
+<div class="image-stop" />
+
+<a href="https://drive.google.com/open?id=1sUVmzb692XMr0oxw4E5USaOUM4rBrJo5" class="image-right">
+![Partially corrected plot](better-email-plot-thumbnail.png)
+</a>
+
+This plot corrects the scaling. In the previous plot it appears that the
+amount of email traffic has doubled, but in truth email traffic is only
+going up by a small fraction in this time.
+
+Speaking of time, the time range selected for this plot is a bit weird,
+too. The time range of the plot is fairly narrow. The majority of the plot
+is a prediction of the future. Why not show the trend with collected data?
+
+<div class="image-stop" />
+
+<a href="https://drive.google.com/open?id=19fP75sTliw-De_knGZFMfH2gNYderzfI" class="image-right">
+![More corrected plot](better-yet-email-plot-thumbnail.png)
+</a>
+
+[Ken][Ken Moreland] figures that the data for this plot comes from the
+[Radicati Group]. In about an hour, [Ken][Ken Moreland] was able to pull
+data back to 2012. here is the plot of that data.
+
+As you can see, there have been some recent surges in email traffic, but
+the look like they may be leveling off. Again, not the story of extreme
+email traffic growth purported by the original chart.
+
 ## Lake Macquarie Got Bigger
 
 <a href="https://drive.google.com/open?id=1Pel1yaTh8vQeG7ssLW0XMhXAHEZ3qAxt" class="image-left">
@@ -186,3 +233,5 @@ experiment with the number of bins to best understand the data.
 
 [histogram]: https://en.wikipedia.org/wiki/Histogram
 [adversarial visualization application]: https://algebraicvis.github.io/SanityCheck/attack/
+[a recent technical paper]: http://dx.doi.org/10.1145/3213776
+[Radicati Group]: https://www.radicati.com/
