@@ -9,6 +9,8 @@ gallery-nav:
     url: "#helpings-of-pie"
   - title: Email by the Billions
     url: "#email-by-the-billions"
+  - title: Surprise Results
+    url: "#surprise-results"
   - title: Lake Macquarie Got Bigger
     url: "#lake-macquarie-got-bigger"
   - title: Evil Histograms
@@ -148,6 +150,26 @@ As you can see, there have been some recent surges in email traffic, but
 the look like they may be leveling off. Again, not the story of extreme
 email traffic growth purported by the original chart.
 
+## Surprise Results
+
+<a href="https://drive.google.com/open?id=1EqzbdVkHrPcCC6FPYtZnII4n5lcTLpdP" class="image-right">
+![ACT Results Sample](sample-act-results-thumbnail.png)
+</a>
+
+Earlier this year, [Ken's][Ken Moreland] daughter took the [ACT], an aptitude test commonly used  for admissions by may United States colleges.
+When she received her results, which were similar to [the example][ACT example] shown here, she received a shock.
+Although most of the scores were as expected, the score for writing (second column from the right) was shockingly low.
+
+Did she fail that part of the test?
+Actually, no.
+It is a simple matter of odd scaling.
+Most of the sections in the ACT as well as the composite scores are graded on a scale from 1 to 36.
+But for some reason the writing test scores are scaled from 2 to 12.
+Because the scaling range is so much smaller than all other scores, it becomes a scary shock for each and every of the 1.7 million students that take the test every year.
+
+The problem is simple to solve.
+Just rescale the writing score to be in the 36 point scale as the others (multiply the score by 3).
+
 ## Lake Macquarie Got Bigger
 
 <a href="https://drive.google.com/open?id=1Pel1yaTh8vQeG7ssLW0XMhXAHEZ3qAxt" class="image-left">
@@ -235,3 +257,5 @@ experiment with the number of bins to best understand the data.
 [adversarial visualization application]: https://algebraicvis.github.io/SanityCheck/attack/
 [a recent technical paper]: http://dx.doi.org/10.1145/3213776
 [Radicati Group]: https://www.radicati.com/
+[ACT]: http://www.act.org/
+[ACT example]: http://www.act.org/content/act/en/products-and-services/the-act/scores/understanding-your-scores.html
