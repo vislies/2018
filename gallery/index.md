@@ -19,6 +19,8 @@ gallery-nav:
     url: "#evil-histograms"
   - title: Deceitful Backgrounds
     url: "#deceitful-backgrounds"
+  - title: Bars with no Basis
+    url: "#bars-with-no-basis"
 ---
 
 # VisLies 2018 Gallery
@@ -315,11 +317,44 @@ Human viewers might not see colors with the same brightness that they are
 actually displayed. This helps explain why studies show subjects [error up
 to 20%] when using grayscale-only representations for values.
 
+## Bars with no Basis
+
+<a href="https://drive.google.com/open?id=1jUGuwl_AxdtCAiyamfmBM0OyMB_8g_4o" class="image-right">
+![Poor PBS Bar Chart](pbs-barchart-thumbnail.jpg)
+</a>
+
+If bars are not scaled, is it really a chart?
+[Richard Johansen] was watching PBS one day and came across this bar chart, which did not look right.
+Something did no look right, so he quickly took a picture, printed it out, and measured the length of the bars.
+Sure enough, none of the scales of any of the bars matched each other.
+
+<div class="image-stop" />
+
+<a href="https://drive.google.com/open?id=1VAcGKaAU73y58jXzNolGgeRFv16oiQlU" class="image-left">
+![PBS Bar Chart Reprojected](pbs-barchart-reprojected-thumbnail.jpg)
+</a>
+
+If you take the scale from the reported number of the `2015` bar and use that to derive numbers for the other bars as [Richard][Richard Johansen] did, you get a chart that looks like this.
+Note that these rescaled numbers are way off the actual values reported in the original chart.
+If you also add the space for the missing `2019` value, as is done here, you see that the growth of the bars actually slows down toward the end.
+
+<div class="image-stop" />
+
+<a href="https://drive.google.com/open?id=16iPThnHReyOUt-ms8Qqvd4u6mkurHRsz" class="image-right">
+![PBS Bar Chart Rescaled](pbs-barchart-rescaled-thumbnail.jpg)
+</a>
+
+Modifying again to take the values reported in the original bar chart and scaling the bars on that, you get a chart like this one here.
+Missing are the bars where concrete numbers were not given as we can only guess what the actual values are supposed to be.
+Interestingly, the properly scaled bars shows a linear increase that was somehow also shown in the original plot even though the the time scale got compressed at the end.
+The original chart appears to have lied so much that it has somehow stumbled back into the general vicinity of truth.
+
 
 [Ken Moreland]: http://kennethmoreland.com
 [Ben Simons]: mailto:bsimons@acm.org
 [Michael Correll]: http://correll.io/
 [David Borland]: https://renci.org/staff/david-borland/
+[Richard Johansen]: http://guides.libraries.uc.edu/prf.php?account_id=174793
 
 [Walt Disney parks]: https://en.wikipedia.org/wiki/Disney_Parks,_Experiences_and_Products
 [Sleeping Beauty Castle]: https://en.wikipedia.org/wiki/Sleeping_Beauty_Castle
