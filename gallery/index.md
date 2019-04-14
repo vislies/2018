@@ -193,9 +193,17 @@ Above are some examples of the kinds of things Georges showed.
 This example comes from a set of the biggest lying liars who have been
 operating for decades: the Walt Disney park Imagineers.
 
-```
-DO THIS DO THIS DO THIS DO THIS
-```
+<a href="https://drive.google.com/open?id=1777zHitKAuFE4TdkTnbJb1QL_OULrb5C" class="image-right">
+![Sleeping Beauty Castle](sleeping-beauty-castle-thumbnail.jpg)
+</a>
+
+Walt Disney and his Imagineers are some of the biggest liars you will ever meet.
+Just about everything you look at in one of the [Walt Disney parks] is a big fat lie.
+Take, for example, the iconic [Sleeping Beauty Castle] at the center of the Disneyland park shown here.
+The top of this faux castle reaches about 77 feet (23 meters), which is not exactly low but is barely 1/3 the height of the [Neuschwanstein Castle] on which it is based.
+Instead, the architecture uses numerous examples of [forced perspective] to make it appear taller.
+Pay particular attention to the turrets.
+The ones at the base of the castle are quite wide, but the tend to get thinner as you move up the castle, making them appear to be further away.
 
 ## Lake Macquarie Got Bigger
 
@@ -276,7 +284,7 @@ experiment with the number of bins to best understand the data.
 
 ## Deceitful Backgrounds
 
-<a href="https://en.wikipedia.org/wiki/Contrast_effect" class="image-right">
+<a href="https://drive.google.com/open?id=1d-DDMaZxouFVks2C7FvUJDLyw7jgAFw6" class="image-right">
 ![Simultaneous contrast](simultaneous-contrast-thumbnail.png)
 </a>
 
@@ -290,7 +298,7 @@ and bottom of the bar with your hands and you can see the uniform color.
 Now remove your hands. Even knowing the bar is all one color, it is still
 hard to "see" it as one color.
 
-<a href="https://en.wikipedia.org/wiki/Contrast_effect" class="image-left">
+<a href="https://drive.google.com/open?id=1Ln5YmJi3UjXPOwM_1cV_g3wkjGw8SrB8" class="image-left">
 ![Simultaneous contrast in action](simultaneous-contrast-in-action-thumbnail.png)
 </a>
 
@@ -313,6 +321,10 @@ to 20%] when using grayscale-only representations for values.
 [Michael Correll]: http://correll.io/
 [David Borland]: https://renci.org/staff/david-borland/
 
+[Walt Disney parks]: https://en.wikipedia.org/wiki/Disney_Parks,_Experiences_and_Products
+[Sleeping Beauty Castle]: https://en.wikipedia.org/wiki/Sleeping_Beauty_Castle
+[Neuschwanstein Castle]: https://en.wikipedia.org/wiki/Neuschwanstein_Castle
+[forced perspective]: https://en.wikipedia.org/wiki/Forced_perspective
 [histogram]: https://en.wikipedia.org/wiki/Histogram
 [adversarial visualization application]: https://algebraicvis.github.io/SanityCheck/attack/
 [a recent technical paper]: http://dx.doi.org/10.1145/3213776
