@@ -11,10 +11,14 @@ gallery-nav:
     url: "#email-by-the-billions"
   - title: Surprise Results
     url: "#surprise-results"
+  - title: Farewell Georges
+    url: "#farewell-georges"
   - title: Lake Macquarie Got Bigger
     url: "#lake-macquarie-got-bigger"
   - title: Evil Histograms
     url: "#evil-histograms"
+  - title: Deceitful Backgrounds
+    url: "#deceitful-backgrounds"
 ---
 
 # VisLies 2018 Gallery
@@ -170,6 +174,29 @@ Because the scaling range is so much smaller than all other scores, it becomes a
 The problem is simple to solve.
 Just rescale the writing score to be in the 36 point scale as the others (multiply the score by 3).
 
+## Farewell Georges
+
+<img alt="Georges Grinstein" src="georges-grinstein-thumbnail.jpg" class="image-right" style="border-radius:50px;" />
+
+It is with a heavy heart this year that we say goodbye to Georges Grinstein.
+Georges was one of the founding members of the first VisLies (in 1995!) and had continued to help organize VisLies since.
+Unfortunately, Georges passed away this year.
+
+We spend some time this year to remember Georges and celebrate his life.
+
+<img alt="Architecture Optical Illusions" src="architecture-optical-illusions.jpg" class="image-full" />
+
+Something that Georges enjoyed doing each year at VisLies was presenting an example of an (intentional) optical illusion in the form of architecture.
+Above are some examples of the kinds of things Georges showed.
+
+[Ken][Ken Moreland] choose to honor Georges by showing his own personal favorite illusion in architecture.
+This example comes from a set of the biggest lying liars who have been
+operating for decades: the Walt Disney park Imagineers.
+
+```
+DO THIS DO THIS DO THIS DO THIS
+```
+
 ## Lake Macquarie Got Bigger
 
 <a href="https://drive.google.com/open?id=1Pel1yaTh8vQeG7ssLW0XMhXAHEZ3qAxt" class="image-left">
@@ -247,11 +274,44 @@ narrow ranges) can fail to estimate the density of the samples.
 Consequently, when using histogram visualizations it is prudent to
 experiment with the number of bins to best understand the data.
 
+## Deceitful Backgrounds
+
+<a href="https://en.wikipedia.org/wiki/Contrast_effect" class="image-right">
+![Simultaneous contrast](simultaneous-contrast-thumbnail.png)
+</a>
+
+[David Borland] presented a fun and relevant optical illusion named
+[simultaneous contrast] in which the background can have a dramatic effect
+on the perceived colors in it. Take, for example, the bar shown here. The
+bar is clearly lighter on its left end and darker on its right end, right?
+Well, no. The bar is actually a uniform color, but it appears to change
+color because of the changing background. Don't believe it? Cover the top
+and bottom of the bar with your hands and you can see the uniform color.
+Now remove your hands. Even knowing the bar is all one color, it is still
+hard to "see" it as one color.
+
+<a href="https://en.wikipedia.org/wiki/Contrast_effect" class="image-left">
+![Simultaneous contrast in action](simultaneous-contrast-in-action-thumbnail.png)
+</a>
+
+The effects of simultaneous contrast can be _very_ dramatic. Take for
+example this image and look particularly at the tiles marked `A` and `B`.
+`A` is clearly darker than `B`, right? Well, actually, the pixel color
+value of both is the same. (It's hex color #8B8B8B or 47% grayscale. Don't
+believe us? Check the colors with your favorite image editor. Go ahead.
+We'll wait.) But regardless of how much you tell yourself that the two
+colors are the same, you just can't "see" them the same.
+
+Beware, because simultaneous contrast can come into play in visualization.
+Human viewers might not see colors with the same brightness that they are
+actually displayed. This helps explain why studies show subjects [error up
+to 20%] when using grayscale-only representations for values.
 
 
 [Ken Moreland]: http://kennethmoreland.com
 [Ben Simons]: mailto:bsimons@acm.org
 [Michael Correll]: http://correll.io/
+[David Borland]: https://renci.org/staff/david-borland/
 
 [histogram]: https://en.wikipedia.org/wiki/Histogram
 [adversarial visualization application]: https://algebraicvis.github.io/SanityCheck/attack/
@@ -259,3 +319,5 @@ experiment with the number of bins to best understand the data.
 [Radicati Group]: https://www.radicati.com/
 [ACT]: http://www.act.org/
 [ACT example]: http://www.act.org/content/act/en/products-and-services/the-act/scores/understanding-your-scores.html
+[simultaneous contrast]: https://en.wikipedia.org/wiki/Contrast_effect
+[error up to 20%]: https://doi.org/10.1109/38.7760
