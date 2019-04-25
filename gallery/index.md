@@ -230,7 +230,7 @@ weather report and saw a rather startling change in the coastline.
 According to this map, lake Macquarie (labeled near the weatherperson's
 head) has become _huge_.
 
-After a double take, it starts to become clear that, no, a huge chuck of
+After a double take, it starts to become clear that, no, a huge chunk of
 Australia has not broken off to sea. Yet. Probably. Rather, the colors used
 to represent rainfall unwisely use the same color to represent ocean in
 this map.
@@ -241,6 +241,29 @@ and Lake Macquarie labels has just received between 150 and 200mm of rain
 about the other patches? What about the other subtle features of the map?
 Or are maybe we are supposed to assume that it's just really rainy off the
 coast?
+
+The ineptitude of the colors keeps on giving. The colors are thoughtlessly
+picked from rainbow hues,
+[which](http://www.drmoron.org/vislies-2013/#the-destructive-power-of-rainbows)
+is [a](http://www.drmoron.org/vislies-2013/#gorgeous-falls) common
+[target](http://www.vislies.org/2016/gallery/#rainbow) of
+[VisLies](http://www.vislies.org/2017/gallery/#eclipse). To make matters
+worse, the color red is for some reason featured twice and there are two
+very similar shades of orange. The order of the colors is also confusing:
+orange, red, orange, yellow, lime...? Even more confusing, there is
+something odd with a green region just north of Katoomba and west of
+Richmond. That area has a yellow-green color that is featured nowhere in
+the discrete colors of the scale.
+
+Additionally, The scales of the color map goes up an unpredictable steps:
+1, 5, 10, 15, 25, 50, 100, 150, 200, 300, 400. It goes up in 5's, then one
+step of 10, then one 25, three 50's, and two 100's, doubling at arbitrary
+points. How is one to make sense of the progression?
+
+And what is happening with the weird texture pattern in the lower left? Did
+they run out of orange pixels?
+
+This is a map that keeps on giving... confusion!
 
 ## Evil Histograms
 
