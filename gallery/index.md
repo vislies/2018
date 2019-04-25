@@ -255,7 +255,7 @@ something odd with a green region just north of Katoomba and west of
 Richmond. That area has a yellow-green color that is featured nowhere in
 the discrete colors of the scale.
 
-Additionally, The scales of the color map goes up an unpredictable steps:
+Additionally, the intervals on the color map's legend increase unpredictably:
 1, 5, 10, 15, 25, 50, 100, 150, 200, 300, 400. It goes up in 5's, then one
 step of 10, then one 25, three 50's, and two 100's, doubling at arbitrary
 points. How is one to make sense of the progression?
